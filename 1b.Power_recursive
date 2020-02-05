@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+int Pow(int x,int y)
+{
+	if(y==1) return x;
+	int r=x*Pow(x,y-1);
+	return r;
+}
+int main()
+{
+	int x,y;
+	cout<<"Enter values for x and y: ";
+	cin>>x>>y;
+	if(x==0) cout<<"0";
+	else if(y==0 || x==1) cout<<"1";
+	else if(y==1) cout<<x;
+	else cout<<Pow(x,y);
+}
