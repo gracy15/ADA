@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int x,y,i,mul=1;
+	cout<<"Enter number 1:";
+	cin>>x;
+	cout<<"Enter number 2:";
+	cin>>y;
+	for(i=0;i<y;i++)
+	{
+		mul=mul*x;
+	}
+	cout<<mul;
+}
