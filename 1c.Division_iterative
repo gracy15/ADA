@@ -3,12 +3,12 @@ using namespace std;
 int main()
 {
 	int x,y,q,c=0;
-	cout<<"Enter values for x and y(keep x>y): ";
+	cout<<"Enter values for x and y: ";
 	cin>>x>>y;
 	while(x!=0)
 	{
-		q=x-y;
-		c++;
+		x=x-y;
+		c=c+1;
 	}
 	cout<<"Result is:"<<c;
 	return 0;
