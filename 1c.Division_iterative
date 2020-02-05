@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int x,y,q,c=0;
+	cout<<"Enter values for x and y(keep x>y): ";
+	cin>>x>>y;
+	while(x!=0)
+	{
+		q=x-y;
+		c++;
+	}
+	cout<<"Result is:"<<c;
+	return 0;
+}
